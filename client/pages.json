@@ -1,0 +1,140 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^van-(.*)": "@vant/weapp/(.*)/",
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/tongue",
+			"style": {
+				"navigationBarTitleText": "舌诊"
+			}
+		},
+		{
+			"path": "pages/index/aicommunication",
+			"style": {
+				"navigationBarTitleText": "AI咨询"
+			}
+		},
+		{
+			"path": "pages/index/question",
+			"style": {
+				"navigationBarTitleText": "体检"
+			}
+		},
+		{
+			"path": "pages/index/reserve",
+			"style": {
+				"navigationBarTitleText": "预约"
+			}
+		},
+		{
+			"path": "pages/shopping/index",
+			"style": {
+				"navigationBarTitleText": "商店"
+			}
+		},
+		{
+			"path": "pages/shopping/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/found/index",
+			"style": {
+				"navigationBarTitleText": "探索"
+			}
+		},
+		{
+			"path": "pages/found/detail",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/index/doctordetail",
+			"style": {
+				"navigationBarTitleText": "医生详情"
+			}
+		},
+		{
+			"path": "pages/my/tongueRecord",
+			"style": {
+				"navigationBarTitleText": "舌诊记录"
+			}
+		},
+		{
+			"path": "pages/my/healthArchive",
+			"style": {
+				"navigationBarTitleText": "健康档案"
+			}
+		},
+		{
+			"path": "pages/my/shoppingCart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/my/orderList",
+			"style": {
+				"navigationBarTitleText": "商品订单"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "贪吃舌",
+		"navigationBarBackgroundColor": "#43CD80",
+		"backgroundColor": "#f0f5f1"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FFFAFA",
+		"backgroundColor": "#43CD80",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/shopping/index",
+				"text": "商店",
+				"iconPath": "static/tabbar/shopping.png",
+				"selectedIconPath": "static/tabbar/shopping-active.png"
+			},
+			{
+				"pagePath": "pages/found/index",
+				"text": "探索",
+				"iconPath": "static/tabbar/found.png",
+				"selectedIconPath": "static/tabbar/found-active.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/shopping/index",
+        "pages/found/index",
+        "pages/my/index"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "贪吃舌",
+        "navigationBarBackgroundColor": "#E8F5E9",
+        "backgroundColor": "#E8F5E9"
+    },
+    "tabBar": {
+        "color": "#999999",
+        "selectedColor": "#009688",
+        "backgroundColor": "#E8F5E9",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/tabbar/home.png",
+                "selectedIconPath": "static/tabbar/home-active.png"
+            },
+            {
+                "pagePath": "pages/shopping/index",
+                "text": "商店",
+                "iconPath": "static/tabbar/shopping.png",
+                "selectedIconPath": "static/tabbar/shopping-active.png"
+            },
+            {
+                "pagePath": "pages/found/index",
+                "text": "探索",
+                "iconPath": "static/tabbar/found.png",
+                "selectedIconPath": "static/tabbar/found-active.png"
+            },
+            {
+                "pagePath": "pages/my/index",
+                "text": "我的",
+                "iconPath": "static/tabbar/my.png",
+                "selectedIconPath": "static/tabbar/my-active.png"
+            }
+        ]
+    },
+    "usingComponents": {
+        "van-search": "@vant/weapp/search/index",
+        "uni-search-bar": "/components/uni-search-bar/uni-search-bar.vue"
+    }
+}
